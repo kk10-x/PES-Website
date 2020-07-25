@@ -1,0 +1,265 @@
+/* body */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+@font-face {
+	font-family: "Raleway", sans-serif;
+	src: url("font/Raleway/Raleway-Black.ttf");
+	src: url("font/Raleway/Raleway-BlackItalic.ttf");
+	src: url("font/Raleway/Raleway-Bold.ttf");
+	src: url("font/Raleway/Raleway-BoldItalic.ttf");
+	src: url("font/Raleway/Raleway-ExtraBold.ttf");
+	src: url("font/Raleway/Raleway-ExtraBoldItalic.ttf");
+	src: url("font/Raleway/Raleway-ExtraLight.ttf");
+	src: url("font/Raleway/Raleway-ExtraLightItalic.ttf");
+	src: url("font/Raleway/Raleway-Italic.ttf");
+	src: url("font/Raleway/Raleway-Light.ttf");
+	src: url("font/Raleway/Raleway-LightItalic.ttf");
+	src: url("font/Raleway/Raleway-Medium.ttf");
+	src: url("font/Raleway/Raleway-MediumItalic.ttf");
+	src: url("font/Raleway/Raleway-Regular.ttf");
+	src: url("font/Raleway/Raleway-SemiBold.ttf");
+	src: url("font/Raleway/Raleway-SemiBoldItalic.ttf");
+	src: url("font/Raleway/Raleway-Thin.ttf");
+	src: url("font/Raleway/Raleway-ThinItalic.ttf");
+}
+body {
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+}
+html {
+	height: -webkit-fill-available;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0% 0%;
+	font-family: "Raleway", sans-serif;
+}
+/* Particle js */
+#particles-js canvas {
+	display: block;
+	vertical-align: bottom;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	-webkit-transition: opacity 0.8s ease, -webkit-transform 1.4s ease;
+	transition: opacity 0.8s ease, transform 1.4s ease;
+}
+#particles-js {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -10;
+	top: 0;
+	left: 0;
+}
+/* header */
+.myheader {
+	background: #071022;
+	margin: 0%;
+	padding: 0% 0%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+/* logo */
+
+.logo {
+}
+
+.bmsce_logo {
+	width: 11%;
+}
+
+.bc_logo {
+	width: 6.5%;
+}
+
+.top {
+	color: white;
+	font-size: 3rem;
+	opacity: 69%;
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	.bmsce_logo {
+		width: 35%;
+		min-height: 20%;
+	}
+	.bc_logo {
+		width: 20%;
+		min-width: 10%;
+	}
+	.top {
+		visibility: hidden;
+		font-size: 0rem;
+	}
+	table {
+		visibility: hidden;
+		font-size: 0rem;
+	}
+}
+
+/* end logo */
+
+.navcon {
+	padding: 1.5% 3%;
+	display: flex;
+	justify-content: end;
+}
+
+.content {
+	padding: 0% 10%;
+}
+
+/* end header */
+
+/* main */
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+/* end main */
+
+/* welcome */
+
+.mycontainer1 {
+	height: 100vh;
+	padding: 0% 10%;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-direction: column;
+}
+
+.mycontainerpanel {
+	width: 100vw;
+	height: 100vh;
+	padding: 0% 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* align-items: center; */
+	flex-direction: column;
+}
+.welcome {
+}
+
+/* end welcome */
+
+/* About section */
+
+.mycontainer2 {
+	height: fit-content;
+	padding: 5% 10%;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-direction: column;
+}
+
+/* end About section */
+
+/* events */
+
+.eventcontainer {
+	height: fit-content;
+	padding: 0% 5%;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-font {
+	font-weight: 700;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* event bg */
+.key {
+	background: linear-gradient(to bottom right, #b2bec3, #dfe6e9);
+}
+
+.quiz {
+	background: linear-gradient(to bottom right, #b2bec3, #dfe6e9);
+}
+
+.idea {
+	background: linear-gradient(to bottom right, #b2bec3, #dfe6e9);
+}
+
+.workshop {
+	background: linear-gradient(to bottom right, #b2bec3, #dfe6e9);
+}
+
+.stuchap {
+	background: linear-gradient(to bottom right, #b2bec3, #dfe6e9);
+}
+
+.panel {
+	background: linear-gradient(to bottom right, #b2bec3, #dfe6e9);
+}
+
+/* event bg */
+
+/* lists */
+
+ul {
+	list-style-type: circle;
+}
+
+li {
+	line-height: 2;
+}
+
+ul.outbullet {
+	list-style-type: circle;
+}
+
+ul.bullet {
+	list-style-type: square;
+}
+
+/* table */
+
+table {
+	border-collapse: collapse;
+	overflow-x: auto;
+}
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+.reg {
+	width: fit-content;
+}
+
+
+.underline_animation{
+    position: relative;
+}
+.underline_animation:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(113, 114, 189);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+.underline_animation:hover:before {
+    visibility: visible;
+  width: 100%;
+  }

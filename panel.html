@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+	<link href="css/home.css" rel="stylesheet" />
+	<link href="css/keynote.css" rel="stylesheet" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>IEEE PES Student Congress</title>
+	<script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+</head>
+<script>
+	window.onload = function () {
+		lax.setup() // init
+
+		const updateLax = () => {
+			lax.update(window.scrollY)
+			window.requestAnimationFrame(updateLax)
+		}
+
+		window.requestAnimationFrame(updateLax)
+	}
+</script>
+
+<body>
+	<div id="particles-js"></div>
+	<!-- header -->
+	<div class="myheader w-full h-auto flex flex-row">
+		<div class="logo flex items-center justify-between">
+			<img class="bmsce_logo sm" src="css/images/logo-white.png" />
+			<div class="top">
+				IEEE PES Student Congress - 2020
+			</div>
+			<img class="bc_logo" src="css/images/PES_White-01.png" />
+		</div>
+		<!-- <div class="navcon flex">
+				<div class="content text-3xl font-mono">About</div>
+				<div class="content text-3xl font-mono">Events</div>
+				<div class="content text-3xl font-mono">Contact</div>
+			</div> -->
+	</div>
+	<!-- end header -->
+	<br>
+	<br>
+	<br>
+	<!-- main -->
+	<div class="main">
+		<div class="mycontainer1 rounded-lg" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2000">
+			<span class="welcome text-4xl md:text-5xl text-center tracking-widest leading-loose uppercase pb-8">panel
+				discussion</span>
+			<div class="text-base sm:text-lg md:text-2xl leading-loose text-center">
+				A thought provoking and well-rounded discussion for the audience to learn from. Our panelists who have
+				extensive experience in their relevant fields will provide their unique opinions on the chosen topics.
+				<br> The audience will have a lot to take away from the event. You can take part by posing your question
+				to the panelists or just enjoy the show and watch as opinions clash and wisdom is exchanged.
+			</div>
+		</div>
+
+
+		<section class="text-gray-700">
+			<div class="container px-5 py-16 mx-auto">
+				<div class="flex flex-wrap -m-4">
+					<div class="bg-white p-4 md:w-1/2" data-aos="fade-right" data-aos-delay="500"
+						data-aos-duration="500">
+						<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+							<img class="lg:h- md:h- w-full object-cover object-center"
+								src="css/images/svgtopng/panel1.png" alt="blog" />
+							<div class="p-6 bg-white">
+								<h1 class="title-font text-2xl sm:text-4xl font-black text-gray-900 mb-3 uppercase">
+									Panel discussion 1
+								</h1>
+								<p class="leading-relaxed mb-3">
+								<div class="font-black text-xl sm:text-2xl">
+									Topic- Will a private space company help accelerate India’s growth in the space
+									industry?<br>
+									Panelists -<br>
+									Date - 21/08/2020<br>
+									Timing- 3:00 PM - 4:00 PM<br><br>
+
+								</div>
+								<div class="text-1xl">
+									SpaceX made history to become the first private space company to launch astronauts
+									into space on May 30, 2020. Apart from the cool historic stuff SpaceX has flown 20
+									cargo re-supply missions to the ISS for NASA. Now imagine if India had its own
+									SpaceX. Will it accelerate India’s growth in the space race? Or will it be a bit too
+									ambitious gamble?
+								</div>
+								</p><br><br>
+								<div class="flex items-center justify-center flex-wrap font-bold">
+									<a class="border-2 px-12 py-3 rounded-full border-gray-500 bg-gray-100 text-gray-900 text-xl inline-flex items-center md:mb-2 lg:mb-0"
+										href="https://forms.gle/bjQocBvxuvKETsi19">
+										Register
+										<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+											stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M5 12h14"></path>
+											<path d="M12 5l7 7-7 7"></path>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="p-4 md:w-1/2" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="500">
+						<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+							<img class="lg:h- md:h-36 w-full object-cover object-center bg-white"
+								src="css/images/svgtopng/panal2.png" alt="blog" />
+							<div class="p-6 bg-white">
+								<h1 class="title-font text-2xl sm:text-4xl font-black text-gray-900 mb-3 uppercase">
+									panel discussion 2
+								</h1>
+								<p class="leading-relaxed mb-3">
+								<div class="font-black text-xl sm:text-2xl">
+									Topic - Development and sustainability of startups post covid-19<br>
+									Panelists -<br>
+									Date - 22/08/2020<br>
+									Timing- 4.00 PM to 5.00 PM
+									<br><br></div>
+								<div class="text-1xl">
+									The past four to five months have changed many things- lifestyle,
+									economy and the way we view things. Things look bleak for some
+									companies while the others have skyrocketed. It seems like an
+									ambiguous time for the startup ecosystem in India. We are hosting
+									this discussion with our panelists so that the participants can
+									gain an insight into the opportunities and risks related to developing
+									and sustaining a startup in the post-covid times.
+								</div>
+								</p><br><br>
+								<div class="flex items-center justify-center flex-wrap font-bold">
+									<a class="border-2 px-12 py-3 rounded-full border-gray-500 bg-gray-100 text-gray-900 text-xl inline-flex items-center md:mb-2 lg:mb-0"
+										href="https://forms.gle/iqbJwQaTgA97ogM5A">
+										Register
+										<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+											stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M5 12h14"></path>
+											<path d="M12 5l7 7-7 7"></path>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="mycontainerpanel h-screen" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="2000">
+			<div class="topic text-4xl md:text-5xl flex justify-center items-center mt-16 uppercase tracking-widest">
+				Rules
+			</div>
+			<div class="mycontainerkey w-screen text-left text-sm sm:text-base md:text-2xl">
+				<ul>
+					<li>The event will take place through Webex Meetings. The participants need to install the
+						application beforehand to take part in the event.</li>
+					<li>Participants are requested to login 15 mins prior to the event and keep their camera and mic
+						turned off throughout the same.</li>
+					<li>Our moderator will lead the discussion by presenting questions to the panelists and pull
+						audience questions for the panelists to answer.</li>
+					<li>Participants will be allowed to post questions via chat to host and presenter.</li>
+					<li>It should be taken care that meeting etiquettes are followed.</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- <div class="contain" data-aos="fade-down">
+			<div class="topic flex justify-center items-center mt-16 uppercase tracking-widest mb-16">
+				<div class="text-xl md:text-4xl">Platform -</div>
+				<div class="text-3xl sm:text-4xl md:text-5xl text-gray-700"> Webex</div>
+			</div> -->
+	</div>
+	</div>
+
+	<!-- footer  -->
+	<div class="py-10 mb-4 text-3xl flex flex-col items-center justify-center h-auto opacity-100">
+		<div class="text-black"><a href="about.html">About Us</a></div>
+		<div class="">
+			<!--   -->
+			<a href="https://www.facebook.com/BMSCE-IEEE-PES-112070013814693">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com/bmsce_pes/">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.linkedin.com/company/bmsce-ieee-pes/">
+				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+	<!-- end footer  -->
+
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="./js/home.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+	<link href="css/home.css" rel="stylesheet" />
+	<link href="css/keynote.css" rel="stylesheet" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>IEEE PES Student Congress</title>
+	<script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+</head>
+<script>
+	window.onload = function () {
+		lax.setup() // init
+
+		const updateLax = () => {
+			lax.update(window.scrollY)
+			window.requestAnimationFrame(updateLax)
+		}
+
+		window.requestAnimationFrame(updateLax)
+	}
+</script>
+
+<body>
+	<div id="particles-js"></div>
+	<!-- header -->
+	<div class="myheader w-full h-auto flex flex-row">
+		<div class="logo flex items-center justify-between">
+			<img class="bmsce_logo sm" src="css/images/logo-white.png" />
+			<div class="top">
+				IEEE PES Student Congress - 2020
+			</div>
+			<img class="bc_logo" src="css/images/PES_White-01.png" />
+		</div>
+		<!-- <div class="navcon flex">
+				<div class="content text-3xl font-mono">About</div>
+				<div class="content text-3xl font-mono">Events</div>
+				<div class="content text-3xl font-mono">Contact</div>
+			</div> -->
+	</div>
+	<!-- end header -->
+	<br>
+	<br>
+	<!-- main -->
+	<div class="main">
+		<div class="mycontainer1 rounded-lg" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2000">
+			<span
+				class="welcome text-4xl sm:text-5xl text-center tracking-widest leading-loose uppercase pb-8">Keynotes</span>
+			<div class="text-lg md:text-2xl leading-loose text-center">
+				Hitting the books to make sure you're armed with the best
+				ideas possible? Here is an opportunity to gain knowledge
+				from the experts themselves.<br> To get all your bases
+				covered,to streamline the process of developing a message
+				structure that works,our speakers are here to captivate your
+				attention and inspire you with some noteworthy strategies.
+			</div>
+		</div>
+
+		<section class="text-gray-700">
+			<div class="container px-5 py-16 mx-auto">
+				<div class="flex flex-wrap -m-4">
+					<div class="p-4 md:w-1/2" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
+						<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+							<img class="bg-white lg:h- md:h- w-full object-cover object-center"
+								src="css/images/svgtopng/keynote1.png" alt="blog" />
+							<div class="p-6 bg-white">
+								<h1 class="title-font text-4xl font-black text-gray-900 mb-3 uppercase">
+									Keynote 1
+								</h1>
+								<p class="leading-relaxed mb-3">
+								<div class="font-black text-2xl">
+									Topic - Design Thinking<br />
+									Speaker - Atheeth Shivalinga Prasad (PhD Scholar at CPDM,IISc)<br>
+									Date - 28/08/2020 <br />Timing - 10:30 AM
+									- 11:30 AM<br /><br />
+								</div>
+								<div class="text-1xl">
+									What are problems? Roadblocks or
+									opportunities? It depends on the way we
+									approach them. Design thinking is a
+									systematic and iterative approach to
+									problem solving that encourages solution
+									based thinking. Today it is of great
+									importance especially for product
+									designing and in the startup ecospace
+									where there is constant need for
+									innovation.</div>
+								</p><br><br>
+								<div class="flex items-center justify-center flex-wrap font-bold">
+									<a class="border-2 px-12 py-3 rounded-full border-gray-500 bg-gray-100 text-gray-900 text-xl inline-flex items-center md:mb-2 lg:mb-0"
+										href="https://forms.gle/TDRmPbXgmP938yqA8">
+										Register
+										<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+											stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M5 12h14"></path>
+											<path d="M12 5l7 7-7 7"></path>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="p-4 md:w-1/2" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="500">
+						<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+							<img class="lg:h- md:h-36 w-full object-cover object-center"
+								src="css/images/svgtopng/keynote2.png" alt="blog" />
+							<div class="p-6 bg-white">
+								<h1 class="title-font text-4xl font-black text-gray-900 mb-3 uppercase">
+									Keynote 2
+								</h1>
+								<p class="leading-relaxed mb-3">
+								<div class="font-black text-2xl">
+									Topic - The Art of Team Building<br>
+									Speaker - Sarthak Goyal (SOC Specialist at Akamai Technologies)<br>
+									Date - 29/08/2020<br>
+									Timing - 2:00 PM - 3:00 PM <br><br></div>
+								<div class="text-1xl">
+									No man is an island. Be it in your college or careers you will find yourself working
+									with other people. Team building and management is a very important skill which will
+									take anyone a long way. Ken Blanchard said ‘None of us is as smart as all of us’. It
+									is true as great things are seldom accomplished alone.
+								</div>
+								</p><br><br>
+								<div class="flex items-center justify-center flex-wrap font-bold">
+									<a class="border-2 px-12 py-3 rounded-full border-gray-500 bg-gray-100 text-gray-900 text-xl inline-flex items-center md:mb-2 lg:mb-0"
+										href="https://forms.gle/KSdH9hpreNhvkuwm6">
+										Register
+										<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+											stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M5 12h14"></path>
+											<path d="M12 5l7 7-7 7"></path>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- footer  -->
+	<div class="py-10 mb-4 text-3xl flex flex-col items-center justify-center h-auto opacity-100">
+		<div class="text-black"><a href="about.html">About Us</a></div>
+		<div class="">
+			<!--   -->
+			<a href="https://www.facebook.com/BMSCE-IEEE-PES-112070013814693">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com/bmsce_pes/">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.linkedin.com/company/bmsce-ieee-pes/">
+				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+	<!-- end footer  -->
+
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="./js/home.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
