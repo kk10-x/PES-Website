@@ -138,6 +138,16 @@ body {
 	flex-direction: column;
 }
 
+.mycontainerabout {
+	height: fit-content;
+	padding: 0% 10%;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-direction: column;
+	padding: 10% 10%;
+}
+
 .mycontainerpanel {
 	width: 100vw;
 	height: 100vh;
