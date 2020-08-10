@@ -121,6 +121,21 @@ body {
 }
 /* end logo */
 
+/* video */
+ iframe{
+	 width: 720px;
+	 height: 480px;
+	 margin-bottom: 35%;
+ }
+@media only screen and (max-width:600px) {
+	iframe{
+		visibility: hidden ;
+		width:0;
+		height: 0;
+	}
+}
+/* end video */
+
 .navcon {
 	padding: 1.5% 3%;
 	display: flex;
